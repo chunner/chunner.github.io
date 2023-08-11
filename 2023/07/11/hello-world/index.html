@@ -222,12 +222,12 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-
   function initWaline () {
     const waline = Waline.init(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'https://yutianzf-rmw93bujn-chunner.vercel.app/',
+      serverURL: 'https://yutianzf.vercel.app/',
       pageview: false,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: true,
-    }, null))
+    }, {"requiredMeta":["nick","mail"],"locale":{"placeholder":"昵称和邮箱为必填项，为了您能及时收到相关回复的邮件通知，请确保邮箱的正确性！"}}))
   }
 
   if (typeof Waline === 'object') initWaline()
@@ -289,7 +289,7 @@ if ('Waline' === 'Waline' || !false) {
 
   const getComment = async () => {
     try {
-      const res = await fetch('https://yutianzf-rmw93bujn-chunner.vercel.app//api/comment?type=recent&count=6', { method: 'GET' })
+      const res = await fetch('https://yutianzf.vercel.app//api/comment?type=recent&count=6', { method: 'GET' })
       const result = await res.json()
       const walineArray = result.data.map(e => {
         return {
