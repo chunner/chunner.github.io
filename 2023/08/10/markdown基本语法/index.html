@@ -188,26 +188,21 @@ gtag('config', 'G-FPX9JTWNNL');
 <li>更方便清晰地组织你的电子邮件。（Markdown-here, * Airmail）</li>
 <li>摆脱Word（我不是认真的）。</li>
 </ul>
-<p><strong>缺点</strong>：<br>1、需要记一些语法（当然，是很简单。五分钟学会）。<br>2、有些平台不支持Markdown编辑模式。</p>
+<p><strong>缺点</strong>：<br>   1、需要记一些语法（当然，是很简单。五分钟学会）。<br>   2、有些平台不支持Markdown编辑模式。</p>
 </blockquote>
 <h1 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h1><ul>
 <li><p>在想要设置为标题的文字前面加#来表示 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p>
 <p>注：标准语法一般在#后跟个空格再写文字。</p>
 <p>示例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> # 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>或者，在文本下方的行上，添加任意数量的==（标题级别1）或 —（标题级别2）的字符。</p>
 </li>
 </ul>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> # 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>或者，在文本下方的行上，添加任意数量的&#x3D;&#x3D;（标题级别1）或 –（标题级别2）的字符。</li>
-</ul>
-<p>示例：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一级标题</span><br><span class="line">===============</span><br><span class="line"></span><br><span class="line">这是二级标题</span><br><span class="line">---------------	</span><br></pre></td></tr></table></figure>
-
-
+<p>示例：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一级标题</span><br><span class="line">===============</span><br><span class="line"></span><br><span class="line">这是二级标题</span><br><span class="line">---------------	</span><br></pre></td></tr></table></figure></p>
 <h1 id="二、字体"><a href="#二、字体" class="headerlink" title="二、字体"></a>二、字体</h1><p><code>**加粗**</code> :   <strong>加粗</strong><br>要加粗的文字左右分别用两个*号包起来</p>
 <p><code>*斜体*</code>: <em>斜体</em><br>要倾斜的文字左右分别用一个*号包起来</p>
-<p><code>***斜体加粗***</code>: <em><strong>斜体加粗</strong></em><br>要倾斜和加粗的文字左右分别用三个*号包起来</p>
+<p><code>***斜体加粗***</code>: <strong><em>斜体加粗</em></strong><br>要倾斜和加粗的文字左右分别用三个*号包起来</p>
 <p><code>~~删除线~~</code>: <del>删除线</del><br>要加删除线的文字左右分别用两个~~号包起来</p>
 <h1 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用</h1><p>在段落的每行或者只在第一行使用符号&gt;,还可使用多个嵌套引用，</p>
 <p>示例：</p>
@@ -247,41 +242,32 @@ gtag('config', 'G-FPX9JTWNNL');
 <h1 id="五、图片"><a href="#五、图片" class="headerlink" title="五、图片"></a>五、图片</h1><ul>
 <li><p>插入互联网上图片</p>
 <ul>
-<li>语法：</li>
+<li><p>语法：<br><code>![图片描述](图片链接 &#39;&#39;图片title&#39;&#39;)</code><br>图片描述就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。<br>注意：title可加可不加<br>注意：这个图片描述可以不写。</p>
+<ul>
+<li>示例：<br><code>![杀生丸](https://pic4.zhimg.com/80/v2-560623bcbaa438b1627578aa70f5b08c.png)</code><br>效果如下：<img src="https://pic4.zhimg.com/80/v2-560623bcbaa438b1627578aa70f5b08c.png" alt="杀生丸"></li>
 </ul>
 </li>
 </ul>
-<p><code>![图片描述](图片链接 &#39;&#39;图片title&#39;&#39;)</code><br>图片描述就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。<br>注意：title可加可不加<br>注意：这个图片描述可以不写。</p>
-<ul>
-<li><p>示例：<br><code>![杀生丸](https://pic4.zhimg.com/80/v2-560623bcbaa438b1627578aa70f5b08c.png)</code><br>效果如下：<img src="https://pic4.zhimg.com/80/v2-560623bcbaa438b1627578aa70f5b08c.png" alt="杀生丸"></p>
 </li>
 <li><p>插入本地图片链接</p>
 <ul>
-<li>语法：</li>
-</ul>
+<li><p>语法：<br><code>![图片描述](图片本地路径 &#39;&#39;图片title&#39;&#39;)</code><br>图片描述就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。<br>注意：title可加可不加<br>注意：这个图片描述可以不写。</p>
+</li>
+<li><p>示例：<br><code>![犬夜叉](./image/4b9565e605bccd55f8354609dcd7ebcb.jpg)</code></p>
 </li>
 </ul>
-<p><code>![图片描述](图片本地路径 &#39;&#39;图片title&#39;&#39;)</code><br>图片描述就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。<br>注意：title可加可不加<br>注意：这个图片描述可以不写。</p>
-<ul>
-<li>示例：<br><code>![犬夜叉](./image/4b9565e605bccd55f8354609dcd7ebcb.jpg)</code></li>
+</li>
 </ul>
 <h1 id="六、超链接"><a href="#六、超链接" class="headerlink" title="六、超链接"></a>六、超链接</h1><ul>
 <li>语法：<br><code>[超链接名](超链接地址 &quot;超链接title&quot;)</code><br>注：title可加可不加</li>
-<li>示例：<br> <code>[知乎](https://www.zhihu.com/)</code> <a target="_blank" rel="noopener" href="https://www.zhihu.com/">知乎</a><br> <code>[百度](https://www.baidu.com/)</code> <a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a></li>
-</ul>
-<h1 id="七、列表"><a href="#七、列表" class="headerlink" title="七、列表"></a>七、列表</h1><ul>
+<li>示例：<br> <code>[知乎](https://www.zhihu.com/)</code> <a target="_blank" rel="noopener" href="https://www.zhihu.com/">知乎</a><br> <code>[百度](https://www.baidu.com/)</code> <a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a><h1 id="七、列表"><a href="#七、列表" class="headerlink" title="七、列表"></a>七、列表</h1></li>
 <li><p>无序列表</p>
 <ul>
-<li>语法：</li>
+<li>语法：<br>无序列表用 - + * 任何一种都可以</li>
 </ul>
-</li>
-</ul>
-<p>无序列表用 - + * 任何一种都可以</p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 无序列表内容</span><br><span class="line">+ 无序列表内容</span><br><span class="line">* 无序列表内容</span><br></pre></td></tr></table></figure>
-
-<pre><code>     注意：- + * 跟内容之间都要有一个空格
-</code></pre>
-<blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 无序列表内容</span><br><span class="line">+ 无序列表内容</span><br><span class="line">* 无序列表内容</span><br></pre></td></tr></table></figure>
+<pre><code>   注意：- + * 跟内容之间都要有一个空格
+</code></pre><blockquote>
 <p>效果如下：</p>
 <blockquote>
 <ul>
@@ -295,6 +281,8 @@ gtag('config', 'G-FPX9JTWNNL');
 </ul>
 </blockquote>
 </blockquote>
+</li>
+</ul>
 <p>可以看到，显示效果是一样的。</p>
 <ul>
 <li>有序列表<ul>
@@ -327,15 +315,15 @@ gtag('config', 'G-FPX9JTWNNL');
 <p>效果如下：</p>
 <blockquote>
 <ul>
-<li>一级无序列表内容</li>
+<li>一级无序列表内容<ul>
 <li>二级无序列表内容</li>
 <li>二级无序列表内容</li>
 <li>二级无序列表内容</li>
 </ul>
+</li>
+</ul>
 </blockquote>
 </blockquote>
-</blockquote>
-<blockquote>
 <p>示例二</p>
 <blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;&gt;* 一级无序列表内容</span><br><span class="line">1.二级有序列表内容</span><br><span class="line">2.二级有序列表内容</span><br><span class="line">3.二级有序列表内容</span><br></pre></td></tr></table></figure>
@@ -352,65 +340,20 @@ gtag('config', 'G-FPX9JTWNNL');
 </blockquote>
 <h1 id="八、表格"><a href="#八、表格" class="headerlink" title="八、表格"></a>八、表格</h1><ul>
 <li>语法：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|表头|表头|表头|</span><br><span class="line">|---|:--:|---:|</span><br><span class="line">|内容|内容|内容|</span><br><span class="line">|内容|内容|内容|</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>表头</th>
-<th align="center">表头</th>
-<th align="right">表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>内容</td>
-<td align="center">内容</td>
-<td align="right">内容</td>
-</tr>
-<tr>
-<td>内容</td>
-<td align="center">内容</td>
-<td align="right">内容</td>
-</tr>
-</tbody></table>
-</li>
+| 表头 | 表头 | 表头 |<br>| —— | :—: | —-: |<br>| 内容 | 内容 | 内容 |<br>| 内容 | 内容 | 内容 |</li>
 </ul>
 <blockquote>
-<p>第二行分割表头和内容。<br><code>-</code> 有一个就行，为了对齐，多加了几个<br>文字默认居左<br><code>-</code>两边加<code>：</code>表示文字居中<br><code>-</code>右边加<code>：</code>表示文字居右<br>示例：</p>
+<p>第二行分割表头和内容。<br><code>-</code> 有一个就行，为了对齐，多加了几个<br>文字默认居左<br><code>-</code>两边加<code>：</code>表示文字居中<br><code>-</code>右边加<code>：</code>表示文字居右<br>示例：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|姓名|性别|分数|</span><br><span class="line">|--|:--:|--:|</span><br><span class="line">|小明|男|100|</span><br><span class="line">|小红|女|89|</span><br><span class="line">|小飞|男|88|</span><br></pre></td></tr></table></figure><br>效果如下：<br>| 姓名 | 性别 | 分数 |<br>| —— | :—: | —-: |<br>| 小明 |  男  |  100 |<br>| 小红 |  女  |   89 |<br>| 小飞 |  男  |   88 |</p>
 </blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|姓名|性别|分数|</span><br><span class="line">|--|:--:|--:|</span><br><span class="line">|小明|男|100|</span><br><span class="line">|小红|女|89|</span><br><span class="line">|小飞|男|88|</span><br></pre></td></tr></table></figure>
-<p>效果如下：</p>
-<table>
-<thead>
-<tr>
-<th>姓名</th>
-<th align="center">性别</th>
-<th align="right">分数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>小明</td>
-<td align="center">男</td>
-<td align="right">100</td>
-</tr>
-<tr>
-<td>小红</td>
-<td align="center">女</td>
-<td align="right">89</td>
-</tr>
-<tr>
-<td>小飞</td>
-<td align="center">男</td>
-<td align="right">88</td>
-</tr>
-</tbody></table>
 <h1 id="九、代码"><a href="#九、代码" class="headerlink" title="九、代码"></a>九、代码</h1><ul>
-<li><p>语法：</p>
-<ul>
-<li><p>单行代码：代码之间分别用一个反引号包起来</p>
-</li>
-<li><p>代码块：<br> 1.代码之间分别用三个反引号包起来，且两边的反引号单独占一行<br>  2.使用 4 个空格或者一个制表符（Tab 键）。</p>
-</li>
+<li>语法：<ul>
+<li>单行代码：代码之间分别用一个反引号包起来</li>
 </ul>
 </li>
+</ul>
+<pre><code>- 代码块：
+</code></pre><p>   1.代码之间分别用三个反引号包起来，且两边的反引号单独占一行<br>    2.使用 4 个空格或者一个制表符（Tab 键）。</p>
+<ul>
 <li><p>语法高亮</p>
 <p>代码块要高亮显示，需要在前三个反引号后添加一种语言</p>
 </li>
@@ -418,7 +361,8 @@ gtag('config', 'G-FPX9JTWNNL');
 <h1 id="十、流程图"><a href="#十、流程图" class="headerlink" title="十、流程图"></a>十、流程图</h1><p>MarkDown中的流程图语法叫flow，该语法只有两个注意事项：</p>
 <ul>
 <li>定义元素</li>
-<li>连接定义好的元素<br>示例：<br><img src="https://cdn.jsdelivr.net/gh/chunner/picture-bed//img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-10%20214256.png"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: 开始</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure></li>
+<li>连接定义好的元素<br>示例：<br><img src="https://cdn.jsdelivr.net/gh/chunner/picture-bed//img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-10%20214256.png" alt=""><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">st=&gt;start: 开始</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 <h1 id="十一、换行"><a href="#十一、换行" class="headerlink" title="十一、换行"></a>十一、换行</h1><ul>
 <li><p>方法1: 连续两个以上空格+回车</p>
